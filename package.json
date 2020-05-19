@@ -1,0 +1,24 @@
+{
+  "name": "agendador_server",
+  "version": "1.0.0",
+  "description": "Servidor exclusivo para o agendamento de tarefas",
+  "main": "index.js",
+  "scripts": {
+    "server": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelipeDeveloperFullStack/agendador_server.git"
+  },
+  "author": "Felipe M.Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FelipeDeveloperFullStack/agendador_server/issues"
+  },
+  "homepage": "https://github.com/FelipeDeveloperFullStack/agendador_server#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "http": "^0.0.1-security"
+  }
+}
