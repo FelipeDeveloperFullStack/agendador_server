@@ -6,13 +6,17 @@ const server = http.createServer(express)
 
 const port = process.env.PORT || 6000
 
-const linkServidorExterno = "http://localhost:5000"
+const linkServidorExterno = "http://localhost:5000" //https://sisimlserver.herokuapp.com/
+const time = 3600000 // 1 Hora
 
 setInterval(async ()=> {
     await axios.get(`${linkServidorExterno}/atualizador_refresh_token`).then(response => {
+        console.log("\n")
+        console.log("Data e hora: "+new Date())
         console.log(response.data)
+        console.log("\n")
     }).catch(err => console.log(err))
-}, 5000)
+}, time)
 
 server.listen(port, () => {
     console.log("\n")
