@@ -1,2 +1,7 @@
-exports const LINK_EXTERNO = "https://sisimlserver.herokuapp.com/"
-exports const TIME = 3600000
+const LINK_EXTERNO = "https://sisimlserver.herokuapp.com/"
+const TIME = 3600000
+
+module.exports = {
+    LINK_EXTERNO,
+    TIME
+}
