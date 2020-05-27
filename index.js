@@ -6,7 +6,8 @@ const server = http.createServer(express)
 
 const port = process.env.PORT || 6000
 
-const linkServidorExterno = "http://localhost:5000" //https://sisimlserver.herokuapp.com/
+//const linkServidorExterno = "http://localhost:5000" //https://sisimlserver.herokuapp.com/
+const linkServidorExterno = "https://sisimlserver.herokuapp.com/"
 const time = 3600000 // 1 Hora
 
 setInterval(async ()=> {
