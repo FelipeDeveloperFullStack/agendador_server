@@ -2,7 +2,7 @@ const express = require("express")
 const http = require("http")
 const axios = require("axios")
 require("dotenv/config")
-const environments = require('./environments')
+const environments = require('./environments/environments')
 
 const server = http.createServer(express)
 
